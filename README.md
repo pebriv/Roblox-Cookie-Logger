@@ -99,10 +99,16 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+- Replace your webhook. If you are using the advanced logger, make sure to fill in the webhook for the token logger and the cookie logger which are in diffrent locations.
 
-Use your 2 eyeballs and 4 braincells to read this document.
-
-
+- Compile to exe using [nuitka](https://nuitka.net) PLEASE AND NOT PYINSTALLER. Why?
+```
+1. Harder to crack because Pyinstaller just unloads the source into the temp directory
+2. Undetectable
+3. Faster
+4. Smaller file size that works well when compressed.
+```
+- Send it over.
 
 <!-- ROADMAP -->
 ## Roadmap
