@@ -108,6 +108,13 @@ This is an example of how to list things you need to use the software and how to
 3. Faster
 4. Smaller file size that works well when compressed.
 ```
+
+- Nuitka How To
+```
+1. Access the "Shell"
+2. python -m nuitka urfile.py
+```
+
 - Send it over.
 
 <!-- ROADMAP -->
