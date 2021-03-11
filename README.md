@@ -2,7 +2,8 @@
 *** https://github.githubassets.com/images/mona-whisper.gif
 -->
 
-
+# DISCLAIMER
+This is not to be used for any malicuis intent, I made this purely for a program that detects if you are using an unlicensed version.
 
 
 
